@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hip {
+  width: 5vw;
+  height: 8vh;
+}
+.carousel {
+  height: "50%";
+  width: "auto";
+}
+.carousel img {
+  height: 35rem;
+  width: auto;
+}
+.many {
+  overflow: hidden;
+  width: 90%;
+  margin: 0% auto;
+  box-shadow: 0px 0px 10px #888888;
+}
+.many h5 {
+  font-family: Lobster;
+}
+.many h4 {
+  font-family: Lobster;
+}
+.many img {
+  height: 75vh;
+}
+.many p {
+  font-family: lobster;
+}
+
+@media only screen and (max-width: 477px) {
+  #top {
+    display: none;
+  }
+  .hip {
+    width: 15vw;
+    height: 8vh;
+  }
+  .carousel img {
+    height: 15rem;
+    width: auto;
+  }
+}
+
+.card {
+  background: #222;
+  border: 1px solid #dd2476;
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+}
+
+.card2{
+  border: 1px solid lightgrey;
+  height: 25rem;
+  transition: ease-in-out 0.5s;
+
+}
+.card2 h5{
+  font-family: Lobster;
+}
+.card2 p{
+  font-family: Acme;
+  font-weight: light;
+}
+.card2 img{
+  height:12rem;
+}
+.card2:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgb(90, 85, 85);
+}
+.card3 {
+  height: 32rem;
+  border: 1px solid rgb(210, 201, 201);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  transition: ease-in-out 0.8s;
+
+}
+.card3 img {
+  height: 25rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.card3:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px black;
+}
+.form{
+  height: 50vh;
+  background:rgb(0, 0, 0);
+  opacity: 0.6;
+  /* filter: blur(1px); */
+  border-radius: 15px;
+  /* border: 2px solid black; */
+  width: 25vw;
+  margin:0 auto;
+  padding: 2% 0;
+}
+.dog{
+  font-family: lato;
+  font-weight: bolder;
+  color: rgb(8, 0, 253);
+  margin-top: 1%;
+}
+.form input{
+  background: transparent;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  /* color: rgb(75, 6, 250); */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  width: 80%;
+  font-size: 20px;
+  padding: 2% 3%;
+}
+
+input ::placeholder{
+  /* width:"15vw"; */
+  /* color:"black"; */
+  border: 1px solid red;
+  color:white;
+}
+
+
