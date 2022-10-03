@@ -16,10 +16,9 @@ import slide11 from "../Asset/c2.jpg";
 import slide12 from "../Asset/c16.jpeg";
 import slide13 from "../Asset/c19.jpg";
 import blog from "../Asset/kat6.jpg";
-import blog1 from "../Asset/kat2.jpg"
-import blog2 from "../Asset/kat5.jpg"
-import blog3 from "../Asset/kat4.jpg"
-
+import blog1 from "../Asset/kat2.jpg";
+import blog2 from "../Asset/kat5.jpg";
+import blog3 from "../Asset/kat4.jpg";
 
 import "./nav.css";
 
@@ -239,21 +238,37 @@ const Navbar = () => {
           <div class="carousel-item active">
             <img src={slide5} class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-             <div className="form text-center" style={{float:"right"}}>
-              <h1 className="dog fs-1">Contact Us</h1>
-              <div className="int py-2">
-              {/* <label className="fs-4" style={{marginLeft:"2%"}}>Enter Your Name</label><br /> */}
-              <input type="text" className="tab text-light" placeholder="Name"/>
-              {/* <label className="fs-4"> Enter Your Contact Number</label><br /> */}
-              <input type="text" className="tab mt-3 text-light" placeholder="Contact Number"/><br />
-              <label className="text-light"> (Event Booking Date)</label>
-              <input type="date" className="tab mt-3 text-light" placeholder=" Event Booking Date"/>
-              <button className="btn mt-4 text-dark fs-4 bg-danger  fw-bold">Book Now</button>
-             </div>
-             </div>
+              <div className="form text-center" style={{ float: "right" }}>
+                <h1 className="dog fs-1">Contact Us</h1>
+                <div className="int py-2">
+                  {/* <label className="fs-4" style={{marginLeft:"2%"}}>Enter Your Name</label><br /> */}
+                  <input
+                    type="text"
+                    className="tab text-light"
+                    placeholder="Name"
+                  />
+                  {/* <label className="fs-4"> Enter Your Contact Number</label><br /> */}
+                  <input
+                    type="text"
+                    className="tab mt-3 text-light"
+                    placeholder="Contact Number"
+                  />
+                  <br />
+                  <label className="text-light"> (Event Booking Date)</label>
+                  <input
+                    type="date"
+                    className="tab mt-3 text-light"
+                    placeholder=" Event Booking Date"
+                  />
+                  <button className="btn mt-4 text-dark fs-4 bg-danger  fw-bold">
+                    Book Now
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">`12`
+          <div class="carousel-item">
+            `12`
             <img src={slide6} class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
@@ -354,21 +369,26 @@ const Navbar = () => {
       </div>
 
       <div class="container mx-auto mt-5">
-        <h4 style={{fontFamily:"Acme" , color:"gray"}}>Popular Venue Searches</h4>
+        <h4 style={{ fontFamily: "Acme", color: "gray" }}>
+          Popular Venue Searches
+        </h4>
         <div class="row mt-5">
           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
             <div class="card2">
               <img src={slide} class="card-img-top" alt="..." />
               <div class="card-body text-center">
                 <h5 class="card-title  m-2">Banquet Halls</h5>
-                <p class="text-center fw-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ut, voluptates aliquam quisquam officiis ipsum?</p>
+                <p class="text-center fw-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam ut, voluptates aliquam quisquam officiis ipsum?
+                </p>
                 <button
-                    type="button "
-                    class="btn  text-light fw-bold  text-center mt-3"
-                    style={{ width: "9vw", backgroundColor: "#e60073" }}
-                  >
-                    Book Now
-                  </button>
+                  type="button "
+                  class="btn  text-light fw-bold  text-center mt-3"
+                  style={{ width: "9vw", backgroundColor: "#e60073" }}
+                >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -377,14 +397,17 @@ const Navbar = () => {
               <img src={slide1} class="card-img-top" alt="..." />
               <div class="card-body text-center">
                 <h5 class="card-title  m-2">Lawns</h5>
-                <p class="text-center fw-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ut, voluptates aliquam quisquam officiis ipsum?</p>
+                <p class="text-center fw-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam ut, voluptates aliquam quisquam officiis ipsum?
+                </p>
                 <button
-                    type="button "
-                    class="btn  text-light fw-bold  text-center mt-3"
-                    style={{ width: "9vw", backgroundColor: "#e60073" }}
-                  >
-                    Book Now
-                  </button>
+                  type="button "
+                  class="btn  text-light fw-bold  text-center mt-3"
+                  style={{ width: "9vw", backgroundColor: "#e60073" }}
+                >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -394,14 +417,17 @@ const Navbar = () => {
               <img src={slide3} class="card-img-top" alt="..." />
               <div class="card-body text-center">
                 <h5 class="card-title m-2 ">Framhouses</h5>
-                <p class="text-center fw-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ut, voluptates aliquam quisquam officiis ipsum?</p>
+                <p class="text-center fw-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam ut, voluptates aliquam quisquam officiis ipsum?
+                </p>
                 <button
-                    type="button "
-                    class="btn  text-light fw-bold  text-center mt-3"
-                    style={{ width: "9vw", backgroundColor: "#e60073" }}
-                  >
-                    Book Now
-                  </button>
+                  type="button "
+                  class="btn  text-light fw-bold  text-center mt-3"
+                  style={{ width: "9vw", backgroundColor: "#e60073" }}
+                >
+                  Book Now
+                </button>
               </div>
             </div>
           </div>
@@ -412,40 +438,25 @@ const Navbar = () => {
               <div class="card-body text-center"></div>
               <h5 class="card-title m-2">Hotels</h5>
 
-              <p class="text-center fw-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ut, voluptates aliquam quisquam officiis ipsum?</p>
-                <button
-                    type="button "
-                    class="btn  text-light fw-bold  text-center mt-3"
-                    style={{ width: "9vw", backgroundColor: "#e60073" }}
-                  >
-                    Book Now
-                  </button>
+              <p class="text-center fw-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam ut, voluptates aliquam quisquam officiis ipsum?
+              </p>
+              <button
+                type="button "
+                class="btn  text-light fw-bold  text-center mt-3"
+                style={{ width: "9vw", backgroundColor: "#e60073" }}
+              >
+                Book Now
+              </button>
             </div>
           </div>
         </div>
 
-
-{/* <div className="ban mt-5" width={"90%"} style={{backgroundColor:"red",height:"60vh"}}>
-  <div className="row">
-    <div className="col-xl-6 col-lg-6">
-      <h4>Download The WedMeGood Mobile App Today!</h4>
-    </div>
-  </div>
-</div> */}
-
-
-
-
-
-
-
-
-
-
-
-
         <div className="bride mt-5">
-          <h4 style={{fontFamily:"Acme", color:"gray"}}>Popular Bridal Searches</h4>
+          <h4 style={{ fontFamily: "Acme", color: "gray" }}>
+            Popular Bridal Searches
+          </h4>
         </div>
         <div className="hold mt-5">
           <div className="row">
@@ -532,10 +543,8 @@ const Navbar = () => {
           </div>
         </div>
 
-
-
         <div className="bride mt-5">
-          <h4 style={{fontFamily:"Acme", color:"gray"}}>Latest Blogs</h4>
+          <h4 style={{ fontFamily: "Acme", color: "gray" }}>Latest Blogs</h4>
         </div>
         <div className="hold mt-5">
           <div className="row">
@@ -622,10 +631,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
-
-
-
     </>
   );
 };
