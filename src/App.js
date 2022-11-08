@@ -1,5 +1,7 @@
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import Hooks from './Hooks';
+
 
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
   <Navbar/>
  
   <Footer/>
+  {/* <Hooks/> */}
+  
 
 </>
   );
